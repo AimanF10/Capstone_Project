@@ -16,7 +16,7 @@ class footerBar extends HTMLElement {
             </div>
         </div>
         <div class="foot">
-            <p>YGT &#169; 2022, YGTreasure</p>
+            <p> YGT &#169; 2024, YGTreasure</p>
         </div>
         `;
     }
