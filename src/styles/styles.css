@@ -143,28 +143,28 @@ header {
     min-height: 800px;
     width: 100%;
     text-align: center;
-    background-image: url('../public/images/hero.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/hero.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   
   .hero_inner {
     margin: 0 auto;
     max-width: 800px;
   }
   
-  .hero_title {
-    color: #fff;
+  .hero__title {
+    color: #CDA563;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 65px;
   }
   
-  .hero_tagline {
+  .hero__tagline {
     color: #fff;
     margin-top: 16px;
     font-size: 18px;
-    font-weight: bold;
   }
 
   button {
@@ -176,13 +176,14 @@ header {
   
   .hero__desc button {
     font-family: 'Inter', sans-serif;
-    padding: 13px 25px;
+    padding: 20px 30px;
     border: 1px solid #fff;
     color: #fff;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     margin-top: 30px;
+    margin-bottom: 30px;
     transition: all 0.3s ease-in-out;
   }
   
