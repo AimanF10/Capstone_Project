@@ -1,10 +1,10 @@
 class footerBar extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
         <div class="container">
             <div class="foot-title">About Us</div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -19,7 +19,7 @@ class footerBar extends HTMLElement {
             <p> YGT &#169; 2024, YGTreasure</p>
         </div>
         `;
-    }
+  }
 }
 
 customElements.define('footer-bar', footerBar);
