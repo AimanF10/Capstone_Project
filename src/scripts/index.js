@@ -3,4 +3,4 @@ import './components/header';
 import './components/hero';
 import './components/footer';
 
-console.log('Hello Coders!');
+console.log('Hello !');
