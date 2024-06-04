@@ -1,10 +1,10 @@
 class Hero extends HTMLElement {
-    connectedCallback() {
-        this.render();
-    }
+  connectedCallback() {
+    this.render();
+  }
 
-    render() {
-        this.innerHTML = `
+  render() {
+    this.innerHTML = `
             <div class="hero">
                 <div class="hero__desc">
                     <h1 class="hero__title">Halo, Petualang</h1>
@@ -14,7 +14,7 @@ class Hero extends HTMLElement {
                 </div>
             </div>
           `;
-    }
+  }
 }
 
-customElements.define("hero-bar", Hero);
+customElements.define('hero-bar', Hero);

@@ -1,10 +1,10 @@
 class headBar extends HTMLElement {
-    connectedCallback() {
-      this.render();
-    }
-  
-    render() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.render();
+  }
+
+  render() {
+    this.innerHTML = `
           <div class="head-bar">
             <a class="logo" href="" tabindex="0">
               <h1 class="title">YG Treasure</h1>
@@ -20,6 +20,6 @@ class headBar extends HTMLElement {
             
           </div>
           `;
-    }
   }
-  customElements.define('head-bar', headBar);
+}
+customElements.define('head-bar', headBar);
