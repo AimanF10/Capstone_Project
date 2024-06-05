@@ -263,11 +263,28 @@ button {
   font-display: optional;
 }
 
+.container .card_about {
+  background-color: #E3D3B9; /* Warna latar belakang kartu */
+  border: 1px solid #e7e7e7; /* Garis tepi kartu */
+  border-radius: 8px; 
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.container .card_about p {
+  font-size: 16px;
+  color: #333; /* Warna teks dalam kartu */
+}
+
+.container .card_about p:last-child {
+  margin-bottom: 0; /* Menghapus margin bawah dari paragraf terakhir dalam kartu */
+}
+
 .container .foot-title {
-  font-size: 24px; /* Menyesuaikan ukuran font judul */
+  font-size: 24px;
   font-weight: 600;
-  margin-top: 20px;
-  font-display: optional;
+  margin-top: 4px;
+  margin-bottom: 30px;
 }
 
 .container p {
