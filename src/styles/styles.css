@@ -299,24 +299,93 @@ button {
   font-display: optional;
 }
 
-.social-media {
+.container {
+  border-top: 1px solid #e7e7e7;
+  color: #1B2631;
+  background-color: #fff;
   display: flex;
-  margin-bottom: 20px;
+  flex-direction: column;
+  padding: 40px 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-display: optional;
 }
 
-.social-media .social-media-item {
-  padding: 8px 16px; /* Mengurangi padding */
-  margin: 0 10px;
+.container .card_about {
+  background-color: #E3D3B9;
   border: 1px solid #e7e7e7;
-  border-radius: 4px;
-  cursor: pointer;
+  border-radius: 8px; 
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
-.social-media .social-media-item:hover {
-  background-color: black;
-  color: white;
+.container .card_about p {
+  font-size: 16px;
+  color: #333;
 }
+
+.container .card_about p:last-child {
+  margin-bottom: 0;
+}
+
+.container .foot-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+.container p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-display: optional;
+}
+
+.team {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin to separate from the footer */
+}
+
+.team-member {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.team-member h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.foot {
+  border: 1px solid #e7e7e7;
+  background-color: #CDA563;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.foot p {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #194946;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 
 .foot {
   border: 1px solid #e7e7e7;
