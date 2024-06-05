@@ -136,7 +136,7 @@ nav ul li a {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: black; /* Background color as a fallback */
+  background-color: black;
 }
 
 .carousel-container {
@@ -198,11 +198,16 @@ nav ul li a {
 }
 
 .hero__desc {
-  position: relative;
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
   z-index: 2;
   color: #CDA563;
   text-align: center;
-  width: 100%;
+  width: 80%; 
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -214,6 +219,7 @@ nav ul li a {
   color: #fff;
   margin-top: 16px;
   font-size: 18px;
+  white-space: pre-line;
 }
 
 /* Button Styles */
@@ -237,7 +243,7 @@ button {
   transition: all 0.3s ease-in-out;
 }
 
-.hero__desc button:hover{
+.hero__desc button:hover {
   background-color: #fff;
   color: #000;
 }
