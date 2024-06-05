@@ -48,7 +48,7 @@ header {
   width: 100%;
   background: #CDA563;
   padding: 1px 0;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #194946;
 }
 
 head-bar {
@@ -85,7 +85,7 @@ nav li a {
   font-size: 18px;
   font-weight: 600;
   text-decoration: none;
-  color: black;
+  color: #194946;
   transition: color 0.3s ease;
   margin-right: 20px;
 }
@@ -102,7 +102,7 @@ nav li a:hover {
 }
 
 .name {
-  color: black;
+  color: #194946;
   font-size: 39px;
   font-weight: bolder;
   text-decoration: none;
@@ -329,7 +329,7 @@ button {
   font-size: 15px;
   font-weight: 600;
   text-align: center;
-  color: black;
+  color: #194946;
   margin-bottom: 10px;
   margin-top: 10px;
 }
