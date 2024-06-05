@@ -10,7 +10,7 @@ class headBar extends HTMLElement {
   <nav>
       <ul id="navigation" class="nav-list">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#">Favorite</a></li>
+          <li><a href="#">Posting</a></li>
           <li><a href="#">About Us</a></li>
       </ul>
   </nav>
