@@ -1,262 +1,312 @@
+/* General Styles */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body,
-  html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-  }
-
-  .skip-link {
-    position: absolute;
-    top: -40px;
-    left: 10px;
-    background: black;
-    color: #fff;
-    padding: 10px 15px;
-    z-index: 200;
-    transition: all 0.3s ease-in-out;
-    text-decoration: none;
-    outline: none;
-  }
-  
-  .skip-link:focus {
-    top: 10px;
-    outline: 2px solid #007bff; 
-  }
-  
-  .skip-link:hover {
-    background-color: #0056b3 
-  }
-  
-  .skip-link:focus,
-  .skip-link:hover {
-    color: #007bff;
-  }
-  
-
-/* Header */
-header {
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-    background: #CDA563;
-    padding: 10px 0;
-    border-bottom: 1px solid black;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
- head-bar {
-    max-width: 100rem;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
-  
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
-  nav {
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  nav ul {
-    display: flex;
-    gap: 40px;
-  }
-  
-  nav li {
-    list-style-type: none;
-    transition: transform .3s ease;
-  }
-  
-  nav li:hover {
-    transform: scale(1.05);
-  }
-  
-  nav li a {
-    padding: 12px 0;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s ease;
-    margin-right: 20px;
-  }
-  
-  nav li a:hover {
-    color: #fff;
-  }
-  
-  .navigation {
-    display: flex;
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 0;
-  }
-  
-  .name {
-    color: black;
-    font-size: 39px;
-    font-weight: bolder;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
-    
-  }
-  
-  #hamburger_logo {
-    font-size: 44px;
-    width: 44px; 
-    height: 44px; 
-    text-decoration: none;
-    color: black;
-    display: none;
-  }
-  
-  #hamburger_logo:focus {
-    outline: auto;
-  }
-  
-  #hamburger_logo,
-  nav ul li a {
-    margin-bottom: 10px;
-  }
-  
-  button {
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-  }
+/* Additional Styling for Skip Link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: black;
+  color: #fff;
+  padding: 10px 15px;
+  z-index: 200;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  outline: none;
+}
 
-/* Hero*/
+.skip-link:focus {
+  top: 10px;
+  outline: 2px solid #007bff;
+}
+
+.skip-link:hover {
+  background-color: #0056b3;
+}
+
+.skip-link:focus,
+.skip-link:hover {
+  color: #007bff;
+}
+
+/* Additional Styling for Header */
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: #CDA563;
+  padding: 1px 0;
+  border-bottom: 1px solid black;
+}
+
+head-bar {
+  max-width: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+nav li {
+  list-style-type: none;
+  transition: transform 0.3s ease;
+}
+
+nav li:hover {
+  transform: scale(1.05);
+}
+
+nav li a {
+  padding: 12px 0;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+  margin-right: 20px;
+}
+
+nav li a:hover {
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  padding-bottom: 0;
+}
+
+.name {
+  color: black;
+  font-size: 39px;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 10px;
+}
+
+#hamburger_logo {
+  font-size: 44px;
+  width: 44px;
+  height: 44px;
+  text-decoration: none;
+  color: black;
+  display: none;
+}
+
+#hamburger_logo:focus {
+  outline: auto;
+}
+
+#hamburger_logo,
+nav ul li a {
+  margin-bottom: 10px;
+}
+
+/* Hero Section Styles */
 .hero {
-    display: flex;
-    align-items: center;
-    min-height: 800px;
-    width: 100%;
-    text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../public/images/hero.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
+  display: flex;
+  align-items: center;
+  min-height: 800px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: black; /* Background color as a fallback */
+}
 
-  
-  .hero_inner {
-    margin: 0 auto;
-    max-width: 800px;
-  }
-  
-  .hero__title {
-    color: #CDA563;
-    font-weight: bold;
-    font-size: 65px;
-  }
-  
-  .hero__tagline {
-    color: #fff;
-    margin-top: 16px;
-    font-size: 18px;
-  }
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-  button {
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-    border: none;
-  }
-  
-  .hero__desc button {
-    font-family: 'Inter', sans-serif;
-    padding: 20px 30px;
-    border: 1px solid #fff;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 25px;
-    font-weight: 600;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .hero__desc button:hover{
-    background-color: #fff;
-    color: #000;
-  }
-  
-  .hero__desc button:focus {
-    background-color: #fff;
-    color: #000;
-  }
-  
+.carousel {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+  transition: opacity 1s ease-in-out;
+}
+
+.carousel-image.active {
+  display: block;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.carousel-dots .dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.carousel-dots .dot.active {
+  background-color: #007bff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+
+.hero__desc {
+  position: relative;
+  z-index: 2;
+  color: #CDA563;
+  text-align: center;
+  width: 100%;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 65px;
+}
+
+.hero__tagline {
+  color: #fff;
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+/* Button Styles */
+button {
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.hero__desc button {
+  font-family: 'Inter', sans-serif;
+  padding: 20px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero__desc button:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.hero__desc button:focus {
+  background-color: #fff;
+  color: #000;
+}
+
 /* Card */
 
 /* Footer */
 .container {
-    border-top: 1px solid #e7e7e7;
-    color: #1B2631;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 160px 0px 160px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-display: optional;
+  border-top: 1px solid #e7e7e7;
+  color: #1B2631;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 80px; /* Mengurangi padding agar footer lebih kecil */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-display: optional;
 }
 
 .container .foot-title {
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-    font-display: optional;
+  font-size: 24px; /* Menyesuaikan ukuran font judul */
+  font-weight: 600;
+  margin-top: 20px;
+  font-display: optional;
 }
 
 .container p {
-    margin: 15px 0 15px 0;
-    font-size: 14px;
-    font-display: optional;
+  margin: 10px 0; /* Mengurangi margin atas dan bawah */
+  font-size: 16px; /* Menyesuaikan ukuran font */
+  font-display: optional;
 }
 
 .social-media {
-    display: flex;
-    margin-bottom: 20px;
-    font-display: optional;
+  display: flex;
+  margin-bottom: 20px;
+  font-display: optional;
 }
 
 .social-media .social-media-item {
-    padding: 0 10px 0 10px;
-    margin: 0 10px 0 10px;
-    border: 1px solid #e7e7e7;
-    border-radius: 4px;
-    cursor: pointer;
+  padding: 8px 16px; /* Mengurangi padding */
+  margin: 0 10px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .social-media .social-media-item:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .foot {
-    border: 1px solid #e7e7e7;
-    background-color: #CDA563;
-    padding : 20px 15px;
-    text-align: center;
+  border: 1px solid #e7e7e7;
+  background-color: #CDA563;
+  padding: 20px 15px;
+  text-align: center;
 }
 
 .foot p {
-    font-size: 15px;
-    font-weight: 600;
-    text-align: center;
-    color: black;
-    margin-bottom: 10px;
-    margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: black;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
