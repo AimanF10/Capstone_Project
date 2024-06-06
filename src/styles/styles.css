@@ -13,7 +13,7 @@ html {
   height: 100%;
 }
 
-/* Additional Styling for Skip Link */
+/* Skip Link Styling */
 .skip-link {
   position: absolute;
   top: -40px;
@@ -41,7 +41,7 @@ html {
   color: #007bff;
 }
 
-/* Additional Styling for Header */
+/* Header Styling */
 header {
   position: fixed;
   z-index: 100;
@@ -253,52 +253,7 @@ button {
   color: #000;
 }
 
-/* Card */
-
-/* Footer */
-.container {
-  border-top: 1px solid #e7e7e7;
-  color: #1B2631;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  padding: 40px 80px; /* Mengurangi padding agar footer lebih kecil */
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  font-display: optional;
-}
-
-.container .card_about {
-  background-color: #E3D3B9; /* Warna latar belakang kartu */
-  border: 1px solid #e7e7e7; /* Garis tepi kartu */
-  border-radius: 8px; 
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.container .card_about p {
-  font-size: 16px;
-  color: #333; /* Warna teks dalam kartu */
-}
-
-.container .card_about p:last-child {
-  margin-bottom: 0; /* Menghapus margin bawah dari paragraf terakhir dalam kartu */
-}
-
-.container .foot-title {
-  font-size: 24px;
-  font-weight: 600;
-  margin-top: 4px;
-  margin-bottom: 30px;
-}
-
-.container p {
-  margin: 10px 0; /* Mengurangi margin atas dan bawah */
-  font-size: 16px; /* Menyesuaikan ukuran font */
-  font-display: optional;
-}
-
+/* Footer Styles */
 .container {
   border-top: 1px solid #e7e7e7;
   color: #1B2631;
@@ -342,20 +297,36 @@ button {
   font-display: optional;
 }
 
-.team {
+.team-section {
   background-color: #f1f1f1;
   padding: 20px;
   border-radius: 8px;
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
   align-items: center;
   text-align: center;
-  margin-bottom: 20px; /* Add margin to separate from the footer */
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .team-member {
   flex: 1;
   margin: 0 10px;
+  text-align: center;
+}
+
+.team-photo {
+  width: 150px; /* Diperbesar dari 100px menjadi 150px */
+  height: 150px; /* Diperbesar dari 100px menjadi 150px */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .team-member h3 {
@@ -369,23 +340,6 @@ button {
   line-height: 1.5;
   margin: 0;
 }
-
-.foot {
-  border: 1px solid #e7e7e7;
-  background-color: #CDA563;
-  padding: 20px 15px;
-  text-align: center;
-}
-
-.foot p {
-  font-size: 15px;
-  font-weight: 600;
-  text-align: center;
-  color: #194946;
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-
 
 .foot {
   border: 1px solid #e7e7e7;
