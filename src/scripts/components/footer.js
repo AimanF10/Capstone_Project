@@ -17,24 +17,51 @@ class footerBar extends HTMLElement {
               <img src="/images/.......jpg" alt="Ferdiansyah Haryadi" class="team-photo">
               <h3>Ferdiansyah Haryadi</h3>
               <p>Deskripsi singkat tentang anggota tim pertama. Misalnya, latar belakang, peran di tim, dan keahlian.</p>
+              <div class="social-links">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
             </div>
             <div class="team-member">
-              <img src="images/Muhammad_Aiman_Nurhakim.jpg" alt="Muhammad Aiman Nurhakim" class="team-photo">
+              <img src="images/team/Muhammad_Aiman_Nurhakim.jpg" alt="Muhammad Aiman Nurhakim" class="team-photo">
               <h3>Muhammad Aiman Nurhakim</h3>
-              <p>Deskripsi singkat tentang anggota tim kedua. Misalnya, latar belakang, peran di tim, dan keahlian.</p>
+              <p>Front-End dan Back End.</p>
+              <div class="social-links">
+                <a href="https://github.com/AimanF10" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhammad-aiman-nurhakim-1620a6220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
             </div>
             <div class="team-member">
               <img src="/images/.......jpg" alt="Muhamad Bintang Mandala" class="team-photo">
               <h3>Muhamad Bintang Mandala</h3>
               <p>Deskripsi singkat tentang anggota tim ketiga. Misalnya, latar belakang, peran di tim, dan keahlian.</p>
+              <div class="social-links">
+                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in" target="_blank"><i class="fab fa-linkedin"></i></a>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="foot">
+      <div class="additional-info">
+        <div class="left-info">
+        <p>Situs web YG Treasure (Yogyakarta Treasure) berperan sebagai platform yang berdedikasi dalam industri pariwisata, menyediakan informasi mendalam tentang destinasi yang kurang diketahui oleh sebagian besar wisatawan yang berkunjung ke Daerah Istimewa Yogyakarta.</p>
+        <p>For inquiries, contact us at: ygtreasure@gmail.com</p>
+        <h3>Copyrigth &#169; 2024 YGTreasure</h3>
         </div>
-        <div class="foot">
-          <p>YGT &#169; 2024, YGTreasure</p>
+        <div class="right-info">
+          <p>Follow us on social media:</p>
+          <div class="social-links">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i> Youtube</a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+          </div>
         </div>
-    `;
+      </div>
+    </div>
+      
+      `;
   }
 }
 
