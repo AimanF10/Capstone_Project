@@ -253,6 +253,31 @@ button {
   color: #000;
 }
 
+/* Main Styles */
+.wisata-info {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.wisata-info h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #194946;
+}
+
+.wisata-info p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+  border-top: 1px solid #e7e7e7;
+}
+
+.wisata-info p:last-child {
+  margin-bottom: 0;
+}
+
+
 /* Footer Styles */
 .container {
   border-top: 1px solid #e7e7e7;
