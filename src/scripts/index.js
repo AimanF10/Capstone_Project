@@ -5,4 +5,4 @@ import './components/footer';
 import './components/wisataList';
 import '../styles/styles.css';
 
-console.log('Hello !');
+console.log('Index.js is running');
