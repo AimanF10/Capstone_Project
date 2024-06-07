@@ -14,9 +14,9 @@ class footerBar extends HTMLElement {
           <div class="foot-title">Our Team</div>
           <div class="team-members">
             <div class="team-member">
-              <img src="/images/.......jpg" alt="Ferdiansyah Haryadi" class="team-photo">
+              <img src="images/team/FerdiansyahHaryadi.png" alt="Ferdiansyah Haryadi" class="team-photo">
               <h3>Ferdiansyah Haryadi</h3>
-              <p>Deskripsi singkat tentang anggota tim pertama. Misalnya, latar belakang, peran di tim, dan keahlian.</p>
+              <p>Deskripsi singkat tentang peran di tim.</p>
               <div class="social-links">
                 <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -34,7 +34,7 @@ class footerBar extends HTMLElement {
             <div class="team-member">
               <img src="/images/.......jpg" alt="Muhamad Bintang Mandala" class="team-photo">
               <h3>Muhamad Bintang Mandala</h3>
-              <p>Deskripsi singkat tentang anggota tim ketiga. Misalnya, latar belakang, peran di tim, dan keahlian.</p>
+              <p>Deskripsi singkat tentang peran di tim</p>
               <div class="social-links">
                 <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -60,7 +60,6 @@ class footerBar extends HTMLElement {
         </div>
       </div>
     </div>
-      
       `;
   }
 }

@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = {
   entry: {
     app: path.resolve(__dirname, 'src/scripts/index.js'),
+    detail: path.resolve(__dirname, 'src/scripts/detail.js'),
   },
   output: {
     filename: '[name].bundle.js',
@@ -15,14 +16,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader',
-          },
-          {
-            loader: 'css-loader',
-          },
-        ],
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
@@ -30,6 +24,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: path.resolve(__dirname, 'src/template/index.html'),
+      chunks: ['app'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'detail.html',
+      template: path.resolve(__dirname, 'src/template/detail.html'),
+      chunks: ['detail'],
     }),
     new CopyWebpackPlugin({
       patterns: [

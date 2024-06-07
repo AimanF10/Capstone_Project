@@ -2,7 +2,7 @@
   "name": "capstone_project",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.common.js",
+  "main": "index.js",
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
