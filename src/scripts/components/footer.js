@@ -32,12 +32,12 @@ class footerBar extends HTMLElement {
               </div>
             </div>
             <div class="team-member">
-              <img src="/images/.......jpg" alt="Muhamad Bintang Mandala" class="team-photo">
+              <img src="images/team/MuhamadBintangMandala.png" alt="Muhamad Bintang Mandala" class="team-photo">
               <h3>Muhamad Bintang Mandala</h3>
               <p>Deskripsi singkat tentang peran di tim</p>
               <div class="social-links">
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Mbintangm20" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/muhamad-bintang-mandala-1570752b7/" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
           </div>
