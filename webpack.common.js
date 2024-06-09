@@ -6,6 +6,7 @@ module.exports = {
   entry: {
     app: path.resolve(__dirname, 'src/scripts/index.js'),
     detail: path.resolve(__dirname, 'src/scripts/detail.js'),
+    posting: path.resolve(__dirname, 'src/scripts/posting.js'),
   },
   output: {
     filename: '[name].bundle.js',
@@ -30,6 +31,11 @@ module.exports = {
       filename: 'detail.html',
       template: path.resolve(__dirname, 'src/template/detail.html'),
       chunks: ['detail'],
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'posting.html',
+      template: path.resolve(__dirname, 'src/template/posting.html'),
+      chunks: ['posting'],
     }),
     new CopyWebpackPlugin({
       patterns: [

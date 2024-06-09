@@ -277,6 +277,91 @@ button {
   margin-bottom: 0;
 }
 
+/* Detail Page Styles */
+#wisata-detail {
+  padding: 20px;
+  text-align: center;
+}
+
+#wisata-detail h2 {
+  font-size: 36px;
+  color: #194946;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+#wisata-detail img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#wisata-detail p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#wisata-detail button {
+  padding: 10px 20px;
+  background-color: #194946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#wisata-detail button:hover {
+  background-color: #007bff;
+}
+
+/* Form Styles */
+form {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  color: #194946;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form input[type="file"] {
+  padding: 3px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #194946;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #007bff;
+}
+
 
 /* Footer Styles */
 .container {

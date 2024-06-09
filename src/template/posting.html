@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <title>Tambah Wisata</title>
+</head>
+<body>
+    <header>
+        <head-bar></head-bar>
+    </header>
+    <h1>Tambah Wisata</h1>
+    <form id="postingForm" enctype="multipart/form-data">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+        
+        <label for="image">Image:</label><br>
+        <input type="file" id="image" name="image" required><br><br>
+        
+        <label for="deskripsi">Deskripsi Singkat:</label><br>
+        <textarea id="deskripsi" name="deskripsi" required></textarea><br><br>
+
+        <label for="deskripsifull">Deskripsi Penuh:</label><br>
+        <textarea id="deskripsifull" name="deskripsifull" required></textarea><br><br>
+        
+        <label for="lokasi">Lokasi:</label><br>
+        <input type="text" id="lokasi" name="lokasi" required><br><br>
+        
+        <label for="tiket">Tiket:</label><br>
+        <input type="text" id="tiket" name="tiket" required><br><br>
+        
+        <label for="fasilitas">Fasilitas (pisahkan dengan koma):</label><br>
+        <input type="text" id="fasilitas" name="fasilitas" required><br><br>
+        
+        <label for="review">Review (JSON format):</label><br>
+        <textarea id="review" name="review" required></textarea><br><br>
+        
+        <button type="submit">Tambah</button>
+    </form>
+    <footer>
+
+        <footer-detail></footer-detail>
+    </footer>
+    <script src="./detail.posting.js"></script>
+</body>
+</html>

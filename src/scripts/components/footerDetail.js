@@ -1,10 +1,11 @@
-class footerDetail extends HTMLElement {
-  connectedCallback() {
-    this.render();
-  }
+if (!customElements.get('footer-detail')) {
+  class footerDetail extends HTMLElement {
+    connectedCallback() {
+      this.render();
+    }
 
-  render() {
-    this.innerHTML = `
+    render() {
+      this.innerHTML = `
       <div class="foot">
       <div class="additional-info">
         <div class="left-info">
@@ -23,6 +24,7 @@ class footerDetail extends HTMLElement {
       </div>
     </div>
     `;
+    }
   }
+  customElements.define('footer-detail', footerDetail);
 }
-customElements.define('footer-detail', footerDetail);
