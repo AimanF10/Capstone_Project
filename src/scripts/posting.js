@@ -1,16 +1,21 @@
-// posting.js
 import 'regenerator-runtime';
 import './components/header';
 import './components/footerDetail';
 import '../styles/styles.css';
 
 document.addEventListener('DOMContentLoaded', () => {
-  // Perbaiki id form
   const form = document.getElementById('postingForm');
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
 
     const formData = new FormData(form);
+
+    const reviewData = [{
+      user: formData.get('user'),
+      comment: formData.get('comment'),
+    }];
+    formData.append('review', JSON.stringify(reviewData));
+
     try {
       const response = await fetch('http://localhost:3000/api/wisata', {
         method: 'POST',

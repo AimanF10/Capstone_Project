@@ -223,9 +223,9 @@
   {
     "id": 10,
     "nama": "Puncak Segoro",
-    "image": "/images/wisata/1717907745179.jpg",
+    "image": "/images/wisata/1717930326653.jpg",
     "deskripsi": "Puncak Segoro adalah salah satu destinasi wisata alam yang terletak di Yogyakarta, Indonesia. Terletak di lereng Gunung Merapi, Puncak Segoro menawarkan pemandangan yang memukau dari ketinggian serta udara yang segar",
-    "deskripsifull": "Puncak Segoro adalah salah satu destinasi wisata alam yang terletak di Yogyakarta, Indonesia. Terletak di lereng Gunung Merapi, Puncak Segoro menawarkan pemandangan yang memukau dari ketinggian serta udara yang segar. Pengunjung dapat menikmati panorama pegunungan yang hijau dan lembah yang indah. Selain itu, Puncak Segoro juga menjadi tempat yang populer untuk menikmati matahari terbit dan terbenam yang spektakuler. Beberapa kegiatan yang dapat dilakukan di sini termasuk trekking, camping, dan fotografi alam. Puncak Segoro merupakan destinasi yang ideal bagi para pencinta alam dan mereka yang mencari ketenangan dan keindahan alam yang memesona.",
+    "deskripsifull": "Puncak Segoro adalah salah satu destinasi wisata alam yang terletak di Yogyakarta, Indonesia. Terletak di lereng Gunung Merapi, Puncak Segoro menawarkan pemandangan yang memukau dari ketinggian serta udara yang segar. Pengunjung dapat menikmati panorama pegunungan yang hijau dan lembah yang indah. Selain itu, Puncak Segoro juga menjadi tempat yang populer untuk menikmati matahari terbit dan terbenam yang spektakuler. Beberapa kegiatan yang dapat dilakukan di sini termasuk trekking, camping, dan fotografi alam. Puncak Segoro merupakan destinasi yang ideal bagi para pencinta alam dan mereka yang mencari ketenangan dan keindahan alam yang memesona",
     "lokasi": "Wiloso, Girikarto, Kecamatan Panggang, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta",
     "tiket": "Rp5.000",
     "fasilitas": [
@@ -233,6 +233,11 @@
       "warung makan",
       "dan kamar mandi."
     ],
-    "review": "Buat yang bosen nongkrong di perkotaan jawabannya adalah mampir ke Puncak Segoro, Cliffbarnya yang langsung menghadap pantai buat next level nongki, dekat dengan heha ocean view"
+    "review": [
+      {
+        "user": "Rana",
+        "comment": "Buat yang bosen nongkrong di perkotaan jawabannya adalah mampir ke Puncak Segoro, Cliffbarnya yang langsung menghadap pantai buat next level nongki, dekat dengan heha ocean view"
+      }
+    ]
   }
 ]
