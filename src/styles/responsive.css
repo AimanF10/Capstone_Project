@@ -25,7 +25,6 @@
     .content {
         padding: 15px 20px;
     }
-    
 }
 
 @media screen and (min-width: 1200px) {
@@ -34,7 +33,47 @@
     }
   }
 
-/* Detail */ 
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    display: none; /* Hide navigation by default on small screens */
+    flex-direction: column;
+    gap: 0;
+    position: absolute;
+    top: 60px; /* Adjust based on header height */
+    left: 0; /* Position to the left */
+    background: #CDA563;
+    padding: 10px;
+    border: 1px solid #194946;
+    width: 100%;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  #hamburger_logo {
+    display: block; /* Show hamburger menu on small screens */
+  }
+
+  nav ul.nav-list-visible {
+    display: flex; /* Show navigation when the hamburger menu is clicked */
+  }
+
+  nav ul li {
+    width: 100%;
+    text-align: left; /* Align text to the left */
+    padding: 10px 20px;
+    border-bottom: 1px solid #194946;
+  }
+
+  nav ul li:last-child {
+    border-bottom: none;
+  }
+
+  nav ul li a {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+/* Detail */
 
 @media screen and (max-width: 1160px) {
 }
@@ -112,5 +151,5 @@
   .wisata_img {
       height: 200px;
   }
-  
+
 }

@@ -2,6 +2,7 @@ import 'regenerator-runtime';
 import './components/header';
 import './components/footerDetail';
 import '../styles/styles.css';
+import '../styles/responsive.css';
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('postingForm');
