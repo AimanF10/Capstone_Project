@@ -253,6 +253,104 @@ button {
   color: #000;
 }
 
+/* Wisata Home */
+
+/* CONTENT */
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 32px;
+}
+
+/* EXPLORE */
+
+.explore {
+  /*max-width: 55rem; */
+  width: 100%;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.explore-title {
+  font-size: 32px;
+  font-weight: lighter;
+}
+
+.explore-title::after {
+  content: '';
+  margin-top: 16px;
+  display: block;
+  border-bottom: 1px solid #eeeeee;
+}
+
+/* CARDS */
+
+.wisata {
+  margin: 20px auto auto;
+  text-align: left;
+}
+
+/* CARDS ITEM */
+
+.wisata-list {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.wisata-list img {
+  object-fit: cover;
+  height: 200px;
+}
+
+.wisata-list-content {
+  padding: 16px;
+}
+
+.wisata-list-image {
+  z-index: 0;
+  width: 100%;
+}
+
+.wisata-list-title {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 6px;
+  transition: 0.3s opacity;
+}
+
+.wisata-list-title:hover {
+  opacity: 0.7;
+}
+
+.wisata-list-title a {
+  text-decoration: none;
+  color: inherit;
+  padding: 12px 0;
+}
+
+.wisata-description {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-align: justify;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.lihat-detail {
+  text-decoration: none;
+}
+
+
+
 /* Main Styles */
 .wisata-info {
   text-align: center;
