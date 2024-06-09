@@ -11,7 +11,6 @@ app.use(cors());
 app.use(express.json());
 app.use('/images', express.static(path.join(__dirname, '../src/public/images')));
 
-// Konfigurasi multer untuk menangani upload file gambar
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
     const uploadPath = path.join(__dirname, '../src/public/images/wisata');
@@ -28,10 +27,8 @@ const storage = multer.diskStorage({
 
 const upload = multer({ storage });
 
-// Path ke file wisata.json yang benar
 const wisataFilePath = path.join(__dirname, 'data', 'wisata.json');
 
-// Endpoint untuk mendapatkan semua data wisata
 app.get('/api/wisata', (req, res) => {
   fs.readFile(wisataFilePath, 'utf8', (err, data) => {
     if (err) {
@@ -53,7 +50,6 @@ app.get('/api/wisata', (req, res) => {
   });
 });
 
-// Endpoint untuk mendapatkan data wisata berdasarkan ID
 app.get('/api/wisata/:id', (req, res) => {
   const id = parseInt(req.params.id, 10);
   fs.readFile(wisataFilePath, 'utf8', (err, data) => {
@@ -81,21 +77,18 @@ app.get('/api/wisata/:id', (req, res) => {
   });
 });
 
-// Middleware untuk menangani request POST dengan form-data
 app.post('/api/wisata', upload.single('image'), (req, res) => {
   const {
     nama, deskripsi, deskripsifull, lokasi, tiket, fasilitas, review,
   } = req.body;
-  const image = req.file ? req.file.filename : ''; // Nama file gambar yang diunggah
+  const image = req.file ? req.file.filename : '';
 
-  // Validasi data
   // eslint-disable-next-line max-len
   if (!nama || !deskripsi || !deskripsifull || !lokasi || !tiket || !fasilitas || !review || !image) {
     res.status(400).send('Semua field harus diisi');
     return;
   }
 
-  // Baca file JSON
   fs.readFile(wisataFilePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading JSON file:', err);
@@ -116,19 +109,17 @@ app.post('/api/wisata', upload.single('image'), (req, res) => {
     const newWisata = {
       id: newId,
       nama,
-      image: `/images/wisata/${image}`, // Ubah path gambar sesuai dengan direktori baru
+      image: `/images/wisata/${image}`,
       deskripsi,
       deskripsifull,
       lokasi,
       tiket,
-      // eslint-disable-next-line no-shadow
-      fasilitas: fasilitas.split(',').map((fasilitas) => fasilitas.trim()), // Memisahkan fasilitas menjadi array
-      review: JSON.parse(review), // Menggunakan JSON.parse karena review berupa string JSON
+      fasilitas: fasilitas.split(',').map((f) => f.trim()),
+      review: JSON.parse(review),
     };
 
     existingData.push(newWisata);
 
-    // Simpan data baru ke file JSON
     // eslint-disable-next-line no-shadow
     fs.writeFile(wisataFilePath, JSON.stringify(existingData, null, 2), (err) => {
       if (err) {
