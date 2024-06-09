@@ -376,29 +376,93 @@ main {
 }
 
 /* Detail Page Styles */
-#wisata-detail {
-  padding: 20px;
-  text-align: center;
+.detail_content{
+  padding: 70px 30px 110px 30px;
 }
 
-#wisata-detail h2 {
-  font-size: 36px;
-  color: #194946;
-  margin-top: 100px;
-  margin-bottom: 20px;
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
 }
 
-#wisata-detail img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
-
-#wisata-detail p {
-  font-size: 18px;
+.detail_item {
+  display: flex;
+  width: 100%;
   margin-bottom: 10px;
-  color: #333;
+  margin-top: 20px;
+}
+
+.wisata_img {
+  width: 60%;
+  max-height: 400px;
+}
+
+.wisata_img img {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.wisata_detail {
+  width: 40%;
+  padding: 0 0 0 20px;
+}
+
+.wisata_name {
+  margin-top: 15px;
+  font-size: 31px;
+  font-weight: 600;
+  color: #1B2631;
+}
+
+.wisata_detail p {
+  margin-top: 15px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #1B2631;
+}
+
+.wisata_detail p:first-child {
+  margin-top: 0;
+}
+.wisata_detail p span, .wisata_detail span {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.wisata_desc {
+  border-bottom: 3px solid #95A5A6;
+}
+
+.wisata_desc .wisata_text  {
+  font-size: 19px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.wisata_desc p{
+  text-align: justify;
+  font-size: 18px;
+
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/* Review */
+
+
+
+/* Wisata Button */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 #wisata-detail button {
