@@ -11,17 +11,23 @@ class wisataList extends HTMLElement {
 
   render(wisataData) {
     this.innerHTML = `
-      <h2>Daftar Wisata</h2>
-      <div class="wisata-list">
+    <section class="content" id="main-content">
+    <div class="explore">
+        <h1 class="explore-title">Daftar Wisata</h1>
+        
+        <div id="wisata" class="wisata">
         ${wisataData.map((wisata) => `
-          <div class="wisata-item">
-            <img src="${wisata.image}" alt="${wisata.nama}" style="width:200px;">
-            <h3>${wisata.nama}</h3>
-            <p>${wisata.deskripsi}</p>
-            <a href="detail.html?id=${wisata.id}">Detail</a>
-          </div>
+            <article class="wisata-list">
+                <img class="wisata-list-image" src="${wisata.image}" alt="${wisata.nama}">
+                <div class="wisata-list-content">
+                    <h1 class="wisata-list-title"><a href="./detail.html?id=${wisata.id}">${wisata.nama}</a></h1>
+                    <p class="wisata-description">${wisata.deskripsi}</p>
+                </div>
+            </article>
         `).join('')}
-      </div>
+        </div>
+    </div>
+    </section>
     `;
   }
 }
