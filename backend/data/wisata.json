@@ -1,127 +1,238 @@
 [
-    {
-      "id": 1,
-      "nama": "Pantai Srakung",
-      "image": "./images/wisata/PantaiSrakung.jpg",
-      "deskripsi": "Pantai Srakung berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona.",
-      "deskripsifull": "Ingin liburan ke pantai tapi takut keramaian? Pantai Srakung adalah jawabannya. Terletak di Gunungkidul, pantai ini merupakan salah satu surga tersembunyi yang belum banyak diketahui wisatawan, sehingga kamu bisa menikmati keindahannya dengan leluasa.Gunungkidul memiliki banyak destinasi wisata pantai yang masih tersembunyi, termasuk Pantai Srakung. Pantai ini berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona. Berikut informasi mengenai lokasi, rute, harga tiket, dan tips berkunjung ke Pantai Srakung.Pantai di ujung timur Gunungkidul ini beneran cocok bagi yang ingin menyendiri. Posisi pantainya diapit dua tebing yang menentramkan.Jika dilihat, Pantai Srakung memang tak seluas pantai Drini atau Indrayanti, namun justru di situlah daya tariknya. Mengunjungi pantai srakung seolah bisa merasakan liburan ke private beach.",
-      "lokasi": "Nujo, Pucung, Kec. Girisubo, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta 55883",
-      "tiket": "Gratis",
-      "fasilitas": ["Toilet", "Tempat Parkir"],
-      "review": [
-        {"user": "Nur Blendot ", "comment": "Rekomendasi buat yg cari ketenangan Apalagi pas tiba kondisi sedang surut kita bisa bermain di bibir pantai yg banyak tebing tebing berdiri kokoh"},
-        {"user": "Arvia widanti ", "comment": "yang pengen ke pantai tapi ngga mau yang rame orang, tempat ini cocok banget sihhh, baru aja kemaren aku ke sana, beneran sepiii bangettt, worth it banget sama perjalanan 3 jam yang aku tempuh."}
-      ]
-    },
-    {
-        "id": 2,
-        "nama": "Hutan Pinus Mangunan",
-        "image": "./images/wisata/HutanPinusMangunan.jpg",
-        "deskripsi": "Di Hutan Pinus Mangunan, kamu bisa melihat pemandangan alam yang indah dan hijau. Selain itu, udara di sekitarnya juga sejuk sehingga sangat cocok untuk kamu yang ingin healing.",
-        "deskripsifull": "Yogyakarta merupakan salah satu destinasi wisata favorit bagi wisatawan lokal maupun mancanegara. Jika kamu bosan berkunjung ke objek wisata yang itu-itu saja, cobalah datang ke Hutan Pinus Mangunan. Di tempat ini, kamu bisa melihat pemandangan alam yang indah dan hijau. Selain itu, udara di sekitarnya juga sejuk sehingga sangat cocok untuk kamu yang ingin healing. Dilansir situs Visiting Jogja, daya tarik utama dari Hutan Pinus Mangunan adalah banyaknya pohon pinus yang tinggi dan rindang. Padahal, area Hutan Pinus Mangunan dahulu merupakan wilayah yang tandus dan kering, lho. Agar terlihat rimbun dan asri, kemudian di lahan seluas hampir 500 hektare tersebut ditanami aneka pepohonan, seperti mahoni, akasia, kayu putih, hingga pinus. Seiring berjalannya waktu, pohon-pohon itu tumbuh subur dan akhirnya dikembangkan menjadi objek wisata. Karena banyak ditumbuhi pepohonan, alhasil udara di sekitar Hutan Pinus Mangunan jadi sejuk. Udara yang bersih dan segar tersebut kemudian dimanfaatkan banyak wisatawan untuk healing sembari melihat pepohonan yang hijau.",
-        "lokasi": "Jalan Hutan Pinus Nganjir, Mangunan, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
-        "tiket": "Rp 5.000",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Mushola", "Kantin"],
-        "review": [
-          {"user": "Jilan Salsabila", "comment": " Memiliki udara yang sejuk dan bebas dari polusi. Lokasi cukup bersih dan luas. Terdapat beberapa spot foto menarik. Tersedia beberapa penginapan juga di sekitar hutan pinus mangunan"},
-          {"user": "Bowo Ardianto", "comment": "Tempatnya adem, asri, sejuk buat menenangkan jiwa dari hiruk pikuk kota."}
-        ]
+  {
+    "id": 1,
+    "nama": "Pantai Srakung",
+    "image": "./images/wisata/PantaiSrakung.jpg",
+    "deskripsi": "Pantai Srakung berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona.",
+    "deskripsifull": "Ingin liburan ke pantai tapi takut keramaian? Pantai Srakung adalah jawabannya. Terletak di Gunungkidul, pantai ini merupakan salah satu surga tersembunyi yang belum banyak diketahui wisatawan, sehingga kamu bisa menikmati keindahannya dengan leluasa.Gunungkidul memiliki banyak destinasi wisata pantai yang masih tersembunyi, termasuk Pantai Srakung. Pantai ini berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona. Berikut informasi mengenai lokasi, rute, harga tiket, dan tips berkunjung ke Pantai Srakung.Pantai di ujung timur Gunungkidul ini beneran cocok bagi yang ingin menyendiri. Posisi pantainya diapit dua tebing yang menentramkan.Jika dilihat, Pantai Srakung memang tak seluas pantai Drini atau Indrayanti, namun justru di situlah daya tariknya. Mengunjungi pantai srakung seolah bisa merasakan liburan ke private beach.",
+    "lokasi": "Nujo, Pucung, Kec. Girisubo, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta 55883",
+    "tiket": "Gratis",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir"
+    ],
+    "review": [
+      {
+        "user": "Nur Blendot ",
+        "comment": "Rekomendasi buat yg cari ketenangan Apalagi pas tiba kondisi sedang surut kita bisa bermain di bibir pantai yg banyak tebing tebing berdiri kokoh"
       },
       {
-        "id": 3,
-        "nama": "Air Terjun Kedung Pedut",
-        "image": "./images/wisata/AirTerjunKedungPedut.jpg",
-        "deskripsi": "Kedung Pedut di Desa Jatimulyo, Kulon Progo, adalah air terjun populer dengan air jernih yang bisa berubah menjadi tosca. Dibuka sejak Februari 2015, tempat ini menarik banyak pengunjung, termasuk wisatawan asing.",
-        "deskripsifull": "Air terjun Kedung Pedut. Kedung Pedut adalah salah satu wisata alam yang akhir-akhir ini digandrungi banyak pengunjung terutama kawula muda. Bahkan wisatawan asing sudah banyak mengunjungi objek wisata yang dibuka sejak Februari 2015 ini. Lokasi Kedung Pedut terletak di Desa Jatimulyo, Kecamatan Girimulyo, Kabupaten Kulon Progo. Air terjun ini termasuk dalam Desa Wisata Jatimulyo. Dalam Bahasa Jawa, Kedung berarti kolam dan Pedut berarti kabut. Hal ini dikarenakan saking derasnya saat air jatuh ke bawah menuju kolam, menyebabkan sekitaran kolam tersebut menjadi berkabut. Keunikan lainnya dari objek wisata ini adalah warna air yang jernih dan berubah warna menjadi berwarna tosca.Dari lokasi parkir, kita harus berjalan sekitar 500m untuk bisa sampai di lokasi air terjunnya, melalui jalan setapak yang sudah di-coorblock. Sepanjang jalan menuju Kedung Pedut sangat rindang dan kebersihan sekitaran lokasi dijaga dengan baik. Kita juga disuguhi oleh aliran sungai dan beberapa spot foto yang bisa digunakan untuk berfoto. Tidak hanya itu, ada beberapa permainan tambahan lain yang bisa digunakan seperti flying fox. Air Terjun Kedung Pedut berdekatan dengan Air Terjun Kembang Soka dan Ekowisata Sungai Mudal. Rute terbaik Kedung Pedut dapat ditempuh kurang lebih 50km ke arah barat dari kota Yogyakarta. Jalur yang bisa digunakan adalah melewati Jalan Godean ke barat.",
-        "lokasi": "Jl. Kutogiri Gunung Kelir, Kembang, Jatimulyo, Kec. Girimulyo, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55674",
-        "tiket": "Rp 11.000",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Mushola", "Ruang Ganti", "kantin"],
-        "review": [
-          {"user": "Ainurahmaa", "comment": "Airnya jernih dan biruu. Birunya yg beneran biru bukan karena efek edit foto atau apa. Buat berenang seru, aku cuma main air aja ga sampe mandi. Ada tempat sholatnya juga"},
-          {"user": "Bernado Udayana", "comment": "Kulon progo memang tidak akan kalah kualitas alamnya. Sekitar 1 jam an dari pusat kota Jogjam Air di sini jernih dan segar, sebagai tempat wisata yang terjangkau masih terjaga kebersihan dan keasriannya. Tiket hanya 11rb, parkir motor 3rb, akses dari parkiran menuju kolam lumayan jauh dan melewati beberapa anak tangga."}
-        ]
-      },
-      {
-        "id": 4,
-        "nama": "Goa Jomblang",
-        "image": "./images/wisata/GoaJomblang.jpg",
-        "deskripsi": "Goa Jomblang adalah goa vertikal yang terjadi akibat runtuhnya tanah dan vegetasi karena proses geologi, Goa Jomblang terletak di Desa Pacarejo, Kecamatan Semanu, Kabupaten Gunung Kidul.",
-        "deskripsifull": "Goa Jomblang adalah goa vertikal yang terjadi akibat runtuhnya tanah dan vegetasi karena proses geologi. Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang sebagai tempat konservasi tumbuhan purba di dasar goa. Goa Jomblang merupakan vertical caving yang membutuhkan alat khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas vertical caving akan memacu adrenalin pengunjung. Ada empat jalur yang dapat dilalui dengan kedalaman yang berbeda.Untuk pemula dapat melewati jalur 15 meter, sedangkan bagi yang ahli dapat melewati jalur setinggi 40 meter, 60 meter, hingga 80 meter. Untuk jalur 15 meter dapat dilalui pengunjung dengan jalan kaki, meskipun medannya cukup terjal. Setelah sampai di dasar goa, pengunjung akan terpesona dengan pemandangan di sekitar mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan menemui berbagai vegetasi tumbuhan purba yang cantik dan rimbun.Kemudian saat menyusuri lorong goa, pengunjung dapat melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit di atasnya. Juga, ada aliran sungai yang cukup deras di dalam goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat pemandangan yang disebut 'cahaya surga' Goa Jomblang yang kerap diunggah di media sosial. Cahaya matahari masuk ke dalam goa dan menyinari flowstone. Pemandangan matahari yang menyilaukan kontras dengan kedalaman goa yang gelap gulita, pemandangan ini membuat pengunjung berdecak kagum. Dari sinilah istilah 'cahaya surga' tersebut muncul. Keindahan 'cahaya surga' hanya dapat dinikmati pada waktu tertentu, waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00 hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa Jomblang. Dengan catatan, cuaca sedang cerah. Karena kalau cuaca mendung, matahari tidak dapat masuk dan menyinari mulut goa.",
-        "lokasi": "Desa Pacarejo, Kecamatan Semanu, Kabupaten Gunung Kidul",
-        "tiket": "Rp 450.000 - Rp 1.000.000 (jika tidak membawa alat Caving}",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Mushola"],
-        "review": [
-          {"user": "jovian reyes junior ", "comment": "Indah sekali tempat ini.. benar benar goa yang tersembunyi, khusus buat yang mencintai keindahan alam . Tidak dianjurkan untuk anak anak... keren banget"},
-          {"user": "christinemelisa", "comment": "Indonesia memiliki keindahan alam yang luar biasa indah nya salah satunya gua jomblang,untuk memasuki gua ini kita harus turun vertikal mengunakan tali dan helm yang sudah di sediakan di sana."}
-        ]
-      },
-      {
-        "id": 5,
-        "nama": "Tebing Breksi",
-        "image": "./images/wisata/TebingBreksi.jpg",
-        "deskripsi": "Tebing Breksi menawarkan pemandangan yang menakjubkan dan area hiking yang menarik bagi para pengunjung. Selain itu, tebing ini juga sering digunakan sebagai lokasi untuk kegiatan fotografi dan rekreasi.",
-        "deskripsifull": "Tebing Breksi memang sekilas terdengar asing di telinga sebab tempat wisata ini sebelumnya merupakan kompleks pertambangan batu putih. Masyarakat sekitar mulai mengelola penambangan ini sejak tahun 1980an. Hasil tambang dari daerah ini dijual sebagai bahan pondasi, dinding rumah dan lain-lain. Nah, penambangan yang telah berlangsung bertahun-tahun ini akhirnya dihentikan setelah para peneliti geologis dari UPN dan ilmuwan menemukan fakta baru. Ya, bebatuan Tebing Breksi merupakan endapan abu vulkanik Gunung Purba Nglanggeran. Penemuan tersebut membuat daerah ini masuk dalam kawasan cagar budaya alam yang harus dilindungi dan dilestarikan. Sejak saat itu, masyarakat setempat harus mencari mata pencaharian lain sebab penambangan resmi dihentikan. Ekonomi masyarakat sekitar Tebing Breksi kembali membaik seiring banyaknya wisatawan yang mengunjungi Tebing Breksi hingga akhirnya diresmikan pada tanggaj 12 Mei 2015 lalu.Pemandangan akibat aktivitas penambangan sebelumnya menunjukkan bebatuan kapur yang menjulang tinggi. Kamu juga bisa menaiki tangga dari bebatuan kapur sembari mengabadikan potret keindahan kota Jogjakarta dari ketinggian. Selain itu, Kamu juga bisa mengagumi beberapa sudut tebing yang memiliki ukiran atau pahatan berbentuk wayang.Pecinta foto wajib mengabadikan panorama yang dimiliki oleh Tebing Breksi ini. Selain berfoto selfie, banyak pula pasangan yang menggelar pemotretan pre wedding di tempat ini.",
-        "lokasi": "Wisata Jogja Tebing Breksi terletak di Desa Sambirejo, Kecamatan Prambanan, Sleman, Jogjakarta.",
-        "tiket": "Gratis",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Kantin", "Mobil Jeep"],
-        "review": [
-          {"user": "HeriskaFs", "comment": ": Bagus untuk foto-foto. Harus kuat jalan sebab banyak tanjakan dan panas sekali tapi tidak bakal kecewa. Tiket masuknya juga murah"},
-          {"user": "Indriya AG", "comment": "Luuuaaarrr biaasssaaaa itu lah kata yang bisa di ungkapkan saat menikmati keindahan pemandangan indah di tebing breksi. Akan lebih seru jika berkunjung kesini menggunakan jeep wisata yang telah di sediakan pengelola."}
-        ]
-      },
-      {
-        "id": 6,
-        "nama": "Kebun Buah Mangunan",
-        "image": "./images/wisata/KebunBuahMangunan.jpg",
-        "deskripsi": "Kebun Buah Mangunan adalah destinasi wisata alam yang terletak di Kabupaten Bantul, Yogyakarta, Indonesia. Dikenal karena keindahan panorama alamnya, kebun buah ini menawarkan pemandangan spektakuler perbukitan dan hamparan kebun buah yang memikat mata.",
-        "deskripsifull": "Kebun Buah Mangunan merupakan tempat wisata yang menyajikan pemandangan alam indah, serta udara yang masih sangat segar dan sejuk. Kebun Buah Mangunan adalah bentuk pemanfaatan sumber daya lahan pada kawasan perbukitan struktural di Jogja. Kebun Buah Mangunan merupakan pengembangan budi daya sekaligus tempat wisata di wilayah Perbukitan Batur Agung.Letak Kebun Buah Mangunan yang berada di daerah pegunungan tidak saja menyajikan pemandangan indah, namun juga perkebunan buah yang subur. Pengunjung dapat mengambil aneka buah-buahan langsung dari pohonnya, antara lain jambu air, durian, mangga, jeruk, sawo, duku, manggis, matoa, kelengkeng, jambu biji, belimbing, dan lainnya.Selain menikmati pemandangan dan mengabadikan momen, bagi Anda yang suka bersepeda gunung terdapat jalur offroad yang cukup menguji adrenaline.",
-        "lokasi": "Kebun Buah Mangunan berlokasi di Desa Mangunan, Jalan Imogiri-Dlingo, Sukorame, Mangunan, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
-        "tiket": "Rp 7.000 - Rp 8.000",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Kantin", "Gardu Pandang"],
-        "review": [
-          {"user": "Nur Blendot ", "comment": "sy ke jogja, tempat wisata mangunan, super duper cantikkk, dan sangat indah sekali pemandangan nya, untuk bisa liat kabut nya kesini nya hrus lbih pagi-pagi, sy bener-bener betah disini, karna pemandangan yg indah"},
-          {"user": "Yao", "comment": "Tidak seperti namanya, kebun buah Mangunan, saya justru tidak menemukan ekspos atas buah Yang bisa dinikmati di obyek satu ini. Yg justru terlihat adalah Alam nan indah dan asri, ditimpali dg musik menggunakan lesung dan kayu yg biasa digunakan untuk menumbuk padi atau bahan utk makanan."}
-        ]
-      },
-      {
-        "id": 7,
-        "nama": "Air Terjun Lepo",
-        "image": "./images/wisata/AirTerjunLepo.jpg",
-        "deskripsi": " Air Terjun Lepo menawarkan pengalaman petualangan yang menarik bagi para pengunjung yang menyukai hiking dan trekking. Lokasinya yang tersembunyi di tengah hutan tropis menambah daya tariknya. Terlepas dari keindahannya, Air Terjun Lepo juga menjadi tempat rekreasi yang populer bagi wisatawan lokal dan internasional yang ingin menikmati keindahan alam Yogyakarta.",
-        "deskripsifull": "Grojogan Lepo Dlingo merupakan salah satu obyek wisata air terjun yang cukup terkenal di Yogyakarta yang berada di kabupaten Bantul. Grojogan ini mulai dibuka pada tahun 2013. Obyek wisata ini sangat ramai dikunjungi pada weekend. Kondisi air yang ada di Grojogan Lepo  masih sangat alami dan kondisi tersebut menjadikan obyek ini menjadi daya tarik para wisatawan yang berkunjung. Grojogan ini memiliki beberapa tingkata air terjun yang berada di dalam satu aliran sungai. Grojogan air yang pertama berada di samping tempat penarikan sumbangan. Grojogan yang kedua berada di bawah grojogan pertama. Grojogan yang ketiga ini juga tidak kalah indahnya dengan grojogan yang kedua. Tinggi grojogan ini tidak terlalu jauh dari grojogan kedua dan air yang mengalir di grojogan ini juga hampir sama dengangrojogan yang kedua1.",
-        "lokasi": "Jalan Pokoh, Dlingo, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
-        "tiket": "Rp 2.000",
-        "fasilitas": ["Toilet", "Tempat Parkir"],
-        "review": [
-          {"user": "Bintang R", "comment": "Tempatnya enak, tiket masuknya relatif murah dan juga tempatnya luas"},
-          {"user": "Rusdianto M", "comment": "Rekomendasi tempat yang bagus jika ingin mencari tempat wisata di jogjakarata."}
-        ]
-      },
-      {
-        "id": 8,
-        "nama": "Gua Rancang Kencono",
-        "image": "./images/wisata/GuaRancangKencono.jpg",
-        "deskripsi": "Pantai Srakung berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona.",
-        "deskripsifull": "Berdasarkan buku Mozaik Pusaka Budaya Yogyakarta yang disusun oleh Balai Pelestarian Peninggalan Purbakala Yogyakarta, Gua Rancang Kencono merupakan gua purba sejajar dengan Gua Braholo yang terdapat di Kecamatan Rongkop, hal ini didasarkan pada penemuan artefak dan tulang belulang yang diperkirakan hidup pada ribuan tahun yang lalu. Gua yang mempunyai ruangan luas dan lapang dengan pohon klumpit (Terminalia edulis) yang diperkirakan sudah berusia lebih dari 2 abad ini pernah dijadikan sebagai tempat persembunyian dan pertemuan Laskar Mataram pada saat menyusun rencana untuk mengusir Belanda dari Kasultanan Ngayogyakarta Hadiningrat. Karena digunakan untuk merancang strategi demi tujuan mulia maka gua ini dinamakan Gua Rancang Kencono.",
-        "lokasi": "Goa rancang terletak di Desa Bleberan, Kecamatan Playen, Kabupaten Gunungkidul. Dapat ditempuh dari Kota Jogja -/+ 1,5 jam, dari kota Wonosari +/- 30 menit",
-        "tiket": "Rp 35.000",
-        "fasilitas": ["Ruangan bekas Bertapa"],
-        "review": [
-          {"user": "Sri Wahyu ", "comment": "Sekarang tempatnya sudah enak, karena jalan akses menuju gua sudah diaspal"},
-          {"user": "Budi Sudarsono ", "comment": "Tempatnya sejuk dan dingin, cocok untuk beristirahat dan lanjut menuju air terjun."}
-        ]
-      },    {
-        "id": 9,
-        "nama": "Kalibiru",
-        "image": "./images/wisata/KaliBiru.jpg",
-        "deskripsi": "Kalibiru adalah sebuah desa di Kecamatan Kokap, Kabupaten Kulon Progo, Yogyakarta, Indonesia. Desa ini terkenal karena keindahan alamnya, terutama panorama dari ketinggian yang menawarkan pemandangan indah pegunungan dan hutan tropis.",
-        "deskripsifull": "Tepat terletak di Hargowilis, Kokap, kabupaten Kulon Progo dengan jarak kurang lebih 40 km dari pusat kota, Kalibiru merupakan harmonisasi antara hijaunya hutan dengan hamparan berbukit yang sangat luas dengan pemandangan yang indah. Awal mula terbentuknya tempat ini adalah sebuah hutan negara yang diolah menjadi tempat wisata. Sebagai tempat wisata yang berada pada dataran tinggi, Kalibiru mengandalkan pemandangan alam sebagai daya tarik utama bagi wisatawan. Disamping itu, Kalibiru juga memfasilitasi wisatawan untuk melihat pemandangan dengan menara pandang dan gardu pandang yang berbentuk rumah pohon.",
-        "lokasi": "terletak di Dusun Kalibiru, Kelurahan Hargowilis, Kecamatan Kokap, Kabupaten Kulonprogo, Daerah Istimewa Yogyakarta (DIY).",
-        "tiket": "RP 10.000",
-        "fasilitas": ["Toilet", "Tempat Parkir", "Outbond", "Flying fox", "Trekkingr", "Homestay", "Mushola"],
-        "review": [
-          {"user": "Ayu Sari ", "comment": "Tempat wisatanya bagus banget, saya kesini dibulan desember Bersama keluarga. Pemandangannya sangat bagus dan indah, akan tetapi akses menuju kesini masih sangat sulit dikarenakan jauh dari perkotaan"},
-          {"user": "Tyas R ", "comment": "Lokasinya jauh dan terpencil, Tempatnya udah buka dari jam 8 pagi dan di kalibiru terdapat banyak spot foto yang disediakan."}
-        ]
+        "user": "Arvia widanti ",
+        "comment": "yang pengen ke pantai tapi ngga mau yang rame orang, tempat ini cocok banget sihhh, baru aja kemaren aku ke sana, beneran sepiii bangettt, worth it banget sama perjalanan 3 jam yang aku tempuh."
       }
-  ]
+    ]
+  },
+  {
+    "id": 2,
+    "nama": "Hutan Pinus Mangunan",
+    "image": "./images/wisata/HutanPinusMangunan.jpg",
+    "deskripsi": "Di Hutan Pinus Mangunan, kamu bisa melihat pemandangan alam yang indah dan hijau. Selain itu, udara di sekitarnya juga sejuk sehingga sangat cocok untuk kamu yang ingin healing.",
+    "deskripsifull": "Yogyakarta merupakan salah satu destinasi wisata favorit bagi wisatawan lokal maupun mancanegara. Jika kamu bosan berkunjung ke objek wisata yang itu-itu saja, cobalah datang ke Hutan Pinus Mangunan. Di tempat ini, kamu bisa melihat pemandangan alam yang indah dan hijau. Selain itu, udara di sekitarnya juga sejuk sehingga sangat cocok untuk kamu yang ingin healing. Dilansir situs Visiting Jogja, daya tarik utama dari Hutan Pinus Mangunan adalah banyaknya pohon pinus yang tinggi dan rindang. Padahal, area Hutan Pinus Mangunan dahulu merupakan wilayah yang tandus dan kering, lho. Agar terlihat rimbun dan asri, kemudian di lahan seluas hampir 500 hektare tersebut ditanami aneka pepohonan, seperti mahoni, akasia, kayu putih, hingga pinus. Seiring berjalannya waktu, pohon-pohon itu tumbuh subur dan akhirnya dikembangkan menjadi objek wisata. Karena banyak ditumbuhi pepohonan, alhasil udara di sekitar Hutan Pinus Mangunan jadi sejuk. Udara yang bersih dan segar tersebut kemudian dimanfaatkan banyak wisatawan untuk healing sembari melihat pepohonan yang hijau.",
+    "lokasi": "Jalan Hutan Pinus Nganjir, Mangunan, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+    "tiket": "Rp 5.000",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Mushola",
+      "Kantin"
+    ],
+    "review": [
+      {
+        "user": "Jilan Salsabila",
+        "comment": " Memiliki udara yang sejuk dan bebas dari polusi. Lokasi cukup bersih dan luas. Terdapat beberapa spot foto menarik. Tersedia beberapa penginapan juga di sekitar hutan pinus mangunan"
+      },
+      {
+        "user": "Bowo Ardianto",
+        "comment": "Tempatnya adem, asri, sejuk buat menenangkan jiwa dari hiruk pikuk kota."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nama": "Air Terjun Kedung Pedut",
+    "image": "./images/wisata/AirTerjunKedungPedut.jpg",
+    "deskripsi": "Kedung Pedut di Desa Jatimulyo, Kulon Progo, adalah air terjun populer dengan air jernih yang bisa berubah menjadi tosca. Dibuka sejak Februari 2015, tempat ini menarik banyak pengunjung, termasuk wisatawan asing.",
+    "deskripsifull": "Air terjun Kedung Pedut. Kedung Pedut adalah salah satu wisata alam yang akhir-akhir ini digandrungi banyak pengunjung terutama kawula muda. Bahkan wisatawan asing sudah banyak mengunjungi objek wisata yang dibuka sejak Februari 2015 ini. Lokasi Kedung Pedut terletak di Desa Jatimulyo, Kecamatan Girimulyo, Kabupaten Kulon Progo. Air terjun ini termasuk dalam Desa Wisata Jatimulyo. Dalam Bahasa Jawa, Kedung berarti kolam dan Pedut berarti kabut. Hal ini dikarenakan saking derasnya saat air jatuh ke bawah menuju kolam, menyebabkan sekitaran kolam tersebut menjadi berkabut. Keunikan lainnya dari objek wisata ini adalah warna air yang jernih dan berubah warna menjadi berwarna tosca.Dari lokasi parkir, kita harus berjalan sekitar 500m untuk bisa sampai di lokasi air terjunnya, melalui jalan setapak yang sudah di-coorblock. Sepanjang jalan menuju Kedung Pedut sangat rindang dan kebersihan sekitaran lokasi dijaga dengan baik. Kita juga disuguhi oleh aliran sungai dan beberapa spot foto yang bisa digunakan untuk berfoto. Tidak hanya itu, ada beberapa permainan tambahan lain yang bisa digunakan seperti flying fox. Air Terjun Kedung Pedut berdekatan dengan Air Terjun Kembang Soka dan Ekowisata Sungai Mudal. Rute terbaik Kedung Pedut dapat ditempuh kurang lebih 50km ke arah barat dari kota Yogyakarta. Jalur yang bisa digunakan adalah melewati Jalan Godean ke barat.",
+    "lokasi": "Jl. Kutogiri Gunung Kelir, Kembang, Jatimulyo, Kec. Girimulyo, Kabupaten Kulon Progo, Daerah Istimewa Yogyakarta 55674",
+    "tiket": "Rp 11.000",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Mushola",
+      "Ruang Ganti",
+      "kantin"
+    ],
+    "review": [
+      {
+        "user": "Ainurahmaa",
+        "comment": "Airnya jernih dan biruu. Birunya yg beneran biru bukan karena efek edit foto atau apa. Buat berenang seru, aku cuma main air aja ga sampe mandi. Ada tempat sholatnya juga"
+      },
+      {
+        "user": "Bernado Udayana",
+        "comment": "Kulon progo memang tidak akan kalah kualitas alamnya. Sekitar 1 jam an dari pusat kota Jogjam Air di sini jernih dan segar, sebagai tempat wisata yang terjangkau masih terjaga kebersihan dan keasriannya. Tiket hanya 11rb, parkir motor 3rb, akses dari parkiran menuju kolam lumayan jauh dan melewati beberapa anak tangga."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "Goa Jomblang",
+    "image": "./images/wisata/GoaJomblang.jpg",
+    "deskripsi": "Goa Jomblang adalah goa vertikal yang terjadi akibat runtuhnya tanah dan vegetasi karena proses geologi, Goa Jomblang terletak di Desa Pacarejo, Kecamatan Semanu, Kabupaten Gunung Kidul.",
+    "deskripsifull": "Goa Jomblang adalah goa vertikal yang terjadi akibat runtuhnya tanah dan vegetasi karena proses geologi. Runtuhan ini menghasilkan sinkhole atau sumuran dengan mulut gua sekitar 50 meter. Alhasil terbentuklah, Goa Jomblang sebagai tempat konservasi tumbuhan purba di dasar goa. Goa Jomblang merupakan vertical caving yang membutuhkan alat khusus dan keahlian untuk turun dan menjelajahi goa. Aktivitas vertical caving akan memacu adrenalin pengunjung. Ada empat jalur yang dapat dilalui dengan kedalaman yang berbeda.Untuk pemula dapat melewati jalur 15 meter, sedangkan bagi yang ahli dapat melewati jalur setinggi 40 meter, 60 meter, hingga 80 meter. Untuk jalur 15 meter dapat dilalui pengunjung dengan jalan kaki, meskipun medannya cukup terjal. Setelah sampai di dasar goa, pengunjung akan terpesona dengan pemandangan di sekitar mulut Goa Jomblang. Di sekitar kaki berpijak, pengunjung akan menemui berbagai vegetasi tumbuhan purba yang cantik dan rimbun.Kemudian saat menyusuri lorong goa, pengunjung dapat melihat lorong goa yang dihiasi dengan stalagmit dan stalaktit di atasnya. Juga, ada aliran sungai yang cukup deras di dalam goa. Meneruskan perjalanan sejauh 300 meter, pengunjung akan mendapati Luweng Grubug. Di tersebut, pengunjung akan melihat pemandangan yang disebut 'cahaya surga' Goa Jomblang yang kerap diunggah di media sosial. Cahaya matahari masuk ke dalam goa dan menyinari flowstone. Pemandangan matahari yang menyilaukan kontras dengan kedalaman goa yang gelap gulita, pemandangan ini membuat pengunjung berdecak kagum. Dari sinilah istilah 'cahaya surga' tersebut muncul. Keindahan 'cahaya surga' hanya dapat dinikmati pada waktu tertentu, waktu terbaik di Goa Jomblang yaitu sekitar pukul 10.00 hingga 12.00 WIB. Dimana, matahari tepat menyinari mulut Goa Jomblang. Dengan catatan, cuaca sedang cerah. Karena kalau cuaca mendung, matahari tidak dapat masuk dan menyinari mulut goa.",
+    "lokasi": "Desa Pacarejo, Kecamatan Semanu, Kabupaten Gunung Kidul",
+    "tiket": "Rp 450.000 - Rp 1.000.000 (jika tidak membawa alat Caving}",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Mushola"
+    ],
+    "review": [
+      {
+        "user": "jovian reyes junior ",
+        "comment": "Indah sekali tempat ini.. benar benar goa yang tersembunyi, khusus buat yang mencintai keindahan alam . Tidak dianjurkan untuk anak anak... keren banget"
+      },
+      {
+        "user": "christinemelisa",
+        "comment": "Indonesia memiliki keindahan alam yang luar biasa indah nya salah satunya gua jomblang,untuk memasuki gua ini kita harus turun vertikal mengunakan tali dan helm yang sudah di sediakan di sana."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "nama": "Tebing Breksi",
+    "image": "./images/wisata/TebingBreksi.jpg",
+    "deskripsi": "Tebing Breksi menawarkan pemandangan yang menakjubkan dan area hiking yang menarik bagi para pengunjung. Selain itu, tebing ini juga sering digunakan sebagai lokasi untuk kegiatan fotografi dan rekreasi.",
+    "deskripsifull": "Tebing Breksi memang sekilas terdengar asing di telinga sebab tempat wisata ini sebelumnya merupakan kompleks pertambangan batu putih. Masyarakat sekitar mulai mengelola penambangan ini sejak tahun 1980an. Hasil tambang dari daerah ini dijual sebagai bahan pondasi, dinding rumah dan lain-lain. Nah, penambangan yang telah berlangsung bertahun-tahun ini akhirnya dihentikan setelah para peneliti geologis dari UPN dan ilmuwan menemukan fakta baru. Ya, bebatuan Tebing Breksi merupakan endapan abu vulkanik Gunung Purba Nglanggeran. Penemuan tersebut membuat daerah ini masuk dalam kawasan cagar budaya alam yang harus dilindungi dan dilestarikan. Sejak saat itu, masyarakat setempat harus mencari mata pencaharian lain sebab penambangan resmi dihentikan. Ekonomi masyarakat sekitar Tebing Breksi kembali membaik seiring banyaknya wisatawan yang mengunjungi Tebing Breksi hingga akhirnya diresmikan pada tanggaj 12 Mei 2015 lalu.Pemandangan akibat aktivitas penambangan sebelumnya menunjukkan bebatuan kapur yang menjulang tinggi. Kamu juga bisa menaiki tangga dari bebatuan kapur sembari mengabadikan potret keindahan kota Jogjakarta dari ketinggian. Selain itu, Kamu juga bisa mengagumi beberapa sudut tebing yang memiliki ukiran atau pahatan berbentuk wayang.Pecinta foto wajib mengabadikan panorama yang dimiliki oleh Tebing Breksi ini. Selain berfoto selfie, banyak pula pasangan yang menggelar pemotretan pre wedding di tempat ini.",
+    "lokasi": "Wisata Jogja Tebing Breksi terletak di Desa Sambirejo, Kecamatan Prambanan, Sleman, Jogjakarta.",
+    "tiket": "Gratis",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Kantin",
+      "Mobil Jeep"
+    ],
+    "review": [
+      {
+        "user": "HeriskaFs",
+        "comment": ": Bagus untuk foto-foto. Harus kuat jalan sebab banyak tanjakan dan panas sekali tapi tidak bakal kecewa. Tiket masuknya juga murah"
+      },
+      {
+        "user": "Indriya AG",
+        "comment": "Luuuaaarrr biaasssaaaa itu lah kata yang bisa di ungkapkan saat menikmati keindahan pemandangan indah di tebing breksi. Akan lebih seru jika berkunjung kesini menggunakan jeep wisata yang telah di sediakan pengelola."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nama": "Kebun Buah Mangunan",
+    "image": "./images/wisata/KebunBuahMangunan.jpg",
+    "deskripsi": "Kebun Buah Mangunan adalah destinasi wisata alam yang terletak di Kabupaten Bantul, Yogyakarta, Indonesia. Dikenal karena keindahan panorama alamnya, kebun buah ini menawarkan pemandangan spektakuler perbukitan dan hamparan kebun buah yang memikat mata.",
+    "deskripsifull": "Kebun Buah Mangunan merupakan tempat wisata yang menyajikan pemandangan alam indah, serta udara yang masih sangat segar dan sejuk. Kebun Buah Mangunan adalah bentuk pemanfaatan sumber daya lahan pada kawasan perbukitan struktural di Jogja. Kebun Buah Mangunan merupakan pengembangan budi daya sekaligus tempat wisata di wilayah Perbukitan Batur Agung.Letak Kebun Buah Mangunan yang berada di daerah pegunungan tidak saja menyajikan pemandangan indah, namun juga perkebunan buah yang subur. Pengunjung dapat mengambil aneka buah-buahan langsung dari pohonnya, antara lain jambu air, durian, mangga, jeruk, sawo, duku, manggis, matoa, kelengkeng, jambu biji, belimbing, dan lainnya.Selain menikmati pemandangan dan mengabadikan momen, bagi Anda yang suka bersepeda gunung terdapat jalur offroad yang cukup menguji adrenaline.",
+    "lokasi": "Kebun Buah Mangunan berlokasi di Desa Mangunan, Jalan Imogiri-Dlingo, Sukorame, Mangunan, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+    "tiket": "Rp 7.000 - Rp 8.000",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Kantin",
+      "Gardu Pandang"
+    ],
+    "review": [
+      {
+        "user": "Nur Blendot ",
+        "comment": "sy ke jogja, tempat wisata mangunan, super duper cantikkk, dan sangat indah sekali pemandangan nya, untuk bisa liat kabut nya kesini nya hrus lbih pagi-pagi, sy bener-bener betah disini, karna pemandangan yg indah"
+      },
+      {
+        "user": "Yao",
+        "comment": "Tidak seperti namanya, kebun buah Mangunan, saya justru tidak menemukan ekspos atas buah Yang bisa dinikmati di obyek satu ini. Yg justru terlihat adalah Alam nan indah dan asri, ditimpali dg musik menggunakan lesung dan kayu yg biasa digunakan untuk menumbuk padi atau bahan utk makanan."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nama": "Air Terjun Lepo",
+    "image": "./images/wisata/AirTerjunLepo.jpg",
+    "deskripsi": " Air Terjun Lepo menawarkan pengalaman petualangan yang menarik bagi para pengunjung yang menyukai hiking dan trekking. Lokasinya yang tersembunyi di tengah hutan tropis menambah daya tariknya. Terlepas dari keindahannya, Air Terjun Lepo juga menjadi tempat rekreasi yang populer bagi wisatawan lokal dan internasional yang ingin menikmati keindahan alam Yogyakarta.",
+    "deskripsifull": "Grojogan Lepo Dlingo merupakan salah satu obyek wisata air terjun yang cukup terkenal di Yogyakarta yang berada di kabupaten Bantul. Grojogan ini mulai dibuka pada tahun 2013. Obyek wisata ini sangat ramai dikunjungi pada weekend. Kondisi air yang ada di Grojogan Lepo  masih sangat alami dan kondisi tersebut menjadikan obyek ini menjadi daya tarik para wisatawan yang berkunjung. Grojogan ini memiliki beberapa tingkata air terjun yang berada di dalam satu aliran sungai. Grojogan air yang pertama berada di samping tempat penarikan sumbangan. Grojogan yang kedua berada di bawah grojogan pertama. Grojogan yang ketiga ini juga tidak kalah indahnya dengan grojogan yang kedua. Tinggi grojogan ini tidak terlalu jauh dari grojogan kedua dan air yang mengalir di grojogan ini juga hampir sama dengangrojogan yang kedua1.",
+    "lokasi": "Jalan Pokoh, Dlingo, Kecamatan Dlingo, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+    "tiket": "Rp 2.000",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir"
+    ],
+    "review": [
+      {
+        "user": "Bintang R",
+        "comment": "Tempatnya enak, tiket masuknya relatif murah dan juga tempatnya luas"
+      },
+      {
+        "user": "Rusdianto M",
+        "comment": "Rekomendasi tempat yang bagus jika ingin mencari tempat wisata di jogjakarata."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nama": "Gua Rancang Kencono",
+    "image": "./images/wisata/GuaRancangKencono.jpg",
+    "deskripsi": "Pantai Srakung berada di jalur yang sama dengan Pantai Sadeng di Kapanewon Girisubo, wilayah timur Gunungkidul yang menyimpan banyak pesona.",
+    "deskripsifull": "Berdasarkan buku Mozaik Pusaka Budaya Yogyakarta yang disusun oleh Balai Pelestarian Peninggalan Purbakala Yogyakarta, Gua Rancang Kencono merupakan gua purba sejajar dengan Gua Braholo yang terdapat di Kecamatan Rongkop, hal ini didasarkan pada penemuan artefak dan tulang belulang yang diperkirakan hidup pada ribuan tahun yang lalu. Gua yang mempunyai ruangan luas dan lapang dengan pohon klumpit (Terminalia edulis) yang diperkirakan sudah berusia lebih dari 2 abad ini pernah dijadikan sebagai tempat persembunyian dan pertemuan Laskar Mataram pada saat menyusun rencana untuk mengusir Belanda dari Kasultanan Ngayogyakarta Hadiningrat. Karena digunakan untuk merancang strategi demi tujuan mulia maka gua ini dinamakan Gua Rancang Kencono.",
+    "lokasi": "Goa rancang terletak di Desa Bleberan, Kecamatan Playen, Kabupaten Gunungkidul. Dapat ditempuh dari Kota Jogja -/+ 1,5 jam, dari kota Wonosari +/- 30 menit",
+    "tiket": "Rp 35.000",
+    "fasilitas": [
+      "Ruangan bekas Bertapa"
+    ],
+    "review": [
+      {
+        "user": "Sri Wahyu ",
+        "comment": "Sekarang tempatnya sudah enak, karena jalan akses menuju gua sudah diaspal"
+      },
+      {
+        "user": "Budi Sudarsono ",
+        "comment": "Tempatnya sejuk dan dingin, cocok untuk beristirahat dan lanjut menuju air terjun."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "nama": "Kalibiru",
+    "image": "./images/wisata/KaliBiru.jpg",
+    "deskripsi": "Kalibiru adalah sebuah desa di Kecamatan Kokap, Kabupaten Kulon Progo, Yogyakarta, Indonesia. Desa ini terkenal karena keindahan alamnya, terutama panorama dari ketinggian yang menawarkan pemandangan indah pegunungan dan hutan tropis.",
+    "deskripsifull": "Tepat terletak di Hargowilis, Kokap, kabupaten Kulon Progo dengan jarak kurang lebih 40 km dari pusat kota, Kalibiru merupakan harmonisasi antara hijaunya hutan dengan hamparan berbukit yang sangat luas dengan pemandangan yang indah. Awal mula terbentuknya tempat ini adalah sebuah hutan negara yang diolah menjadi tempat wisata. Sebagai tempat wisata yang berada pada dataran tinggi, Kalibiru mengandalkan pemandangan alam sebagai daya tarik utama bagi wisatawan. Disamping itu, Kalibiru juga memfasilitasi wisatawan untuk melihat pemandangan dengan menara pandang dan gardu pandang yang berbentuk rumah pohon.",
+    "lokasi": "terletak di Dusun Kalibiru, Kelurahan Hargowilis, Kecamatan Kokap, Kabupaten Kulonprogo, Daerah Istimewa Yogyakarta (DIY).",
+    "tiket": "RP 10.000",
+    "fasilitas": [
+      "Toilet",
+      "Tempat Parkir",
+      "Outbond",
+      "Flying fox",
+      "Trekkingr",
+      "Homestay",
+      "Mushola"
+    ],
+    "review": [
+      {
+        "user": "Ayu Sari ",
+        "comment": "Tempat wisatanya bagus banget, saya kesini dibulan desember Bersama keluarga. Pemandangannya sangat bagus dan indah, akan tetapi akses menuju kesini masih sangat sulit dikarenakan jauh dari perkotaan"
+      },
+      {
+        "user": "Tyas R ",
+        "comment": "Lokasinya jauh dan terpencil, Tempatnya udah buka dari jam 8 pagi dan di kalibiru terdapat banyak spot foto yang disediakan."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "nama": "Puncak Segoro",
+    "image": "/images/wisata/1717907745179.jpg",
+    "deskripsi": "Puncak Segoro adalah salah satu destinasi wisata alam yang terletak di Yogyakarta, Indonesia. Terletak di lereng Gunung Merapi, Puncak Segoro menawarkan pemandangan yang memukau dari ketinggian serta udara yang segar",
+    "deskripsifull": "Puncak Segoro adalah salah satu destinasi wisata alam yang terletak di Yogyakarta, Indonesia. Terletak di lereng Gunung Merapi, Puncak Segoro menawarkan pemandangan yang memukau dari ketinggian serta udara yang segar. Pengunjung dapat menikmati panorama pegunungan yang hijau dan lembah yang indah. Selain itu, Puncak Segoro juga menjadi tempat yang populer untuk menikmati matahari terbit dan terbenam yang spektakuler. Beberapa kegiatan yang dapat dilakukan di sini termasuk trekking, camping, dan fotografi alam. Puncak Segoro merupakan destinasi yang ideal bagi para pencinta alam dan mereka yang mencari ketenangan dan keindahan alam yang memesona.",
+    "lokasi": "Wiloso, Girikarto, Kecamatan Panggang, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta",
+    "tiket": "Rp5.000",
+    "fasilitas": [
+      "tempat parkir",
+      "warung makan",
+      "dan kamar mandi."
+    ],
+    "review": "Buat yang bosen nongkrong di perkotaan jawabannya adalah mampir ke Puncak Segoro, Cliffbarnya yang langsung menghadap pantai buat next level nongki, dekat dengan heha ocean view"
+  }
+]
