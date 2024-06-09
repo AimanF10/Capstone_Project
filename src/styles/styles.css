@@ -58,6 +58,7 @@ head-bar {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  width: 100%;
 }
 
 nav {
@@ -117,6 +118,10 @@ nav li a:hover {
   text-decoration: none;
   color: black;
   display: none;
+  position: absolute; /* Position absolutely */
+  right: 20px; /* Position 20px from the right */
+  top: 10px; /* Position 10px from the top */
+  z-index: 200; /* Ensure it is above other elements */
 }
 
 #hamburger_logo:focus {

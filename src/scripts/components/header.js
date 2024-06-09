@@ -3,6 +3,7 @@ if (!customElements.get('head-bar')) {
   class HeadBar extends HTMLElement {
     connectedCallback() {
       this.render();
+      this.addEventListeners();
     }
 
     render() {
@@ -17,6 +18,15 @@ if (!customElements.get('head-bar')) {
           </ul>
         </nav>
       `;
+    }
+
+    addEventListeners() {
+      const hamburger = this.querySelector('#hamburger_logo');
+      const navList = this.querySelector('#navigation');
+
+      hamburger.addEventListener('click', () => {
+        navList.classList.toggle('nav-list-visible');
+      });
     }
   }
   customElements.define('head-bar', HeadBar);
