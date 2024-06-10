@@ -14,7 +14,7 @@ if (!customElements.get('head-bar')) {
           <ul id="navigation" class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="posting.html">Posting</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="footer.js">About Us</a></li>
           </ul>
         </nav>
       `;
@@ -24,28 +24,36 @@ if (!customElements.get('head-bar')) {
       const hamburger = this.querySelector('#hamburger_logo');
       const navList = this.querySelector('#navigation');
 
-      hamburger.addEventListener('click', () => {
-        navList.classList.toggle('nav-list-visible');
-      });
+      if (hamburger && navList) {
+        hamburger.addEventListener('click', () => {
+          navList.classList.toggle('nav-list-visible');
+        });
+      } else {
+        console.error('Hamburger or navigation list not found');
+      }
     }
   }
   customElements.define('head-bar', HeadBar);
 }
 
-// Show the "Back to Top" button when the user scrolls down
-window.addEventListener('scroll', () => {
+document.addEventListener('DOMContentLoaded', () => {
   const backToTopButton = document.querySelector('.btn-back-to-top');
-  if (window.scrollY > 300) {
-    backToTopButton.classList.add('show');
-  } else {
-    backToTopButton.classList.remove('show');
-  }
-});
+  if (backToTopButton) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        backToTopButton.classList.add('show');
+      } else {
+        backToTopButton.classList.remove('show');
+      }
+    });
 
-// Scroll to the top of the page when the button is clicked with smooth behavior
-document.querySelector('.btn-back-to-top').addEventListener('click', () => {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth',
-  });
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
+  } else {
+    console.error('Back to Top button not found');
+  }
 });
