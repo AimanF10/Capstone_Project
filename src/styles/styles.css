@@ -632,14 +632,15 @@ form button:hover {
 
 .team-members {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin-top: 20px;
 }
 
 .team-member {
-  flex: 1;
-  margin: 0 10px;
+  flex: 1 1 100%;
+  margin: 10px;
   text-align: center;
 }
 
@@ -668,6 +669,7 @@ form button:hover {
   line-height: 1.5;
   margin: 0;
 }
+
 .foot {
   border: 1px solid #e7e7e7;
   background-color: #CDA563;

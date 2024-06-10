@@ -14,7 +14,7 @@ if (!customElements.get('head-bar')) {
           <ul id="navigation" class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="posting.html">Posting</a></li>
-            <li><a href="footer.js">About Us</a></li>
+            <li><a href="#footer">About Us</a></li>
           </ul>
         </nav>
       `;
