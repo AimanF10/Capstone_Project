@@ -2,6 +2,7 @@ class Hero extends HTMLElement {
   connectedCallback() {
     this.render();
     this.initCarousel();
+    this.initExploreButton();
   }
 
   render() {
@@ -58,6 +59,13 @@ class Hero extends HTMLElement {
     });
 
     setInterval(showNextImage, 3000); // Change image every 3 seconds
+  }
+
+  initExploreButton() {
+    const exploreButton = this.querySelector('#explore-btn');
+    exploreButton.addEventListener('click', () => {
+      document.getElementById('main-content').scrollIntoView({ behavior: 'smooth' });
+    });
   }
 }
 

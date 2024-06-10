@@ -43,7 +43,7 @@ class footerBar extends HTMLElement {
           </div>
         </div>
       </div>
-      <div class="foot">
+      <div class="foot" id="footer">
       <div class="additional-info">
         <div class="left-info">
         <p>Situs web YG Treasure (Yogyakarta Treasure) berperan sebagai platform yang berdedikasi dalam industri pariwisata, menyediakan informasi mendalam tentang destinasi yang kurang diketahui oleh sebagian besar wisatawan yang berkunjung ke Daerah Istimewa Yogyakarta.</p>
