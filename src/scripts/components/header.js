@@ -31,3 +31,21 @@ if (!customElements.get('head-bar')) {
   }
   customElements.define('head-bar', HeadBar);
 }
+
+// Show the "Back to Top" button when the user scrolls down
+window.addEventListener('scroll', () => {
+  const backToTopButton = document.querySelector('.btn-back-to-top');
+  if (window.scrollY > 300) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
+});
+
+// Scroll to the top of the page when the button is clicked with smooth behavior
+document.querySelector('.btn-back-to-top').addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  });
+});
