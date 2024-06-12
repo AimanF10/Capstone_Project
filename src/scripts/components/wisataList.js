@@ -20,6 +20,7 @@ class wisataList extends HTMLElement {
             <article class="wisata-list">
                 <img class="wisata-list-image" src="${wisata.image}" alt="${wisata.nama}">
                 <div class="wisata-list-content">
+                    <p class="wisata_rating">Rating: <i class="fas fa-star"></i><span>${wisata.rating}</span></p>
                     <h1 class="wisata-list-title"><a href="./detail.html?id=${wisata.id}">${wisata.nama}</a></h1>
                     <p class="wisata-description">${wisata.deskripsi}</p>
                 </div>

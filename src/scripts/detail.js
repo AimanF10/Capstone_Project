@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                   <p class="wisata_locate">Lokasi : <span>${wisata.lokasi}</span></p>
                   <p class="wisata_ticket">Tiket : <span>${wisata.tiket}</span></p>
                   <p class="wisata_facility">Fasilitas : <span>${wisata.fasilitas.join(', ')}</span></p>
+                  <p class="wisata_rating">Rating: <i class="fas fa-star"></i><span>${wisata.rating}</span></p>
                 </div>
               </div>
               <div class="wisata_desc">
