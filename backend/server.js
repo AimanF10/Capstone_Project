@@ -79,16 +79,18 @@ app.get('/api/wisata/:id', (req, res) => {
 
 app.post('/api/wisata', upload.single('image'), (req, res) => {
   const {
-    nama, deskripsi, deskripsifull, lokasi, tiket, fasilitas, review,
+    nama, deskripsi, deskripsifull, lokasi, tiket, fasilitas, review, rating,
   } = req.body;
   const image = req.file ? req.file.filename : '';
 
+  // Pemeriksaan apakah semua field telah diisi
   // eslint-disable-next-line max-len
-  if (!nama || !deskripsi || !deskripsifull || !lokasi || !tiket || !fasilitas || !review || !image) {
+  if (!nama || !deskripsi || !deskripsifull || !lokasi || !tiket || !fasilitas || !review || !image || !rating) {
     res.status(400).send('Semua field harus diisi');
     return;
   }
 
+  // Membaca data dari file JSON
   fs.readFile(wisataFilePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading JSON file:', err);
@@ -105,6 +107,14 @@ app.post('/api/wisata', upload.single('image'), (req, res) => {
       return;
     }
 
+    // Pemeriksaan apakah data sudah ada
+    const existingWisata = existingData.find((w) => w.nama === nama);
+    if (existingWisata) {
+      res.status(400).send('Data sudah ada');
+      return;
+    }
+
+    // Menambahkan data baru
     const newId = existingData.length > 0 ? existingData[existingData.length - 1].id + 1 : 1;
     const newWisata = {
       id: newId,
@@ -116,10 +126,12 @@ app.post('/api/wisata', upload.single('image'), (req, res) => {
       tiket,
       fasilitas: fasilitas.split(',').map((f) => f.trim()),
       review: JSON.parse(review),
+      rating: parseFloat(rating),
     };
 
     existingData.push(newWisata);
 
+    // Menyimpan data ke dalam file JSON
     // eslint-disable-next-line no-shadow
     fs.writeFile(wisataFilePath, JSON.stringify(existingData, null, 2), (err) => {
       if (err) {

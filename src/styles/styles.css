@@ -346,6 +346,16 @@ main {
   padding: 12px 0;
 }
 
+.wisata-list-content .wisata_rating{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wisata-list-content .wisata_rating i{
+  font-size: 14px;
+  color: #F1C40F;
+}
+
 .wisata-description {
   margin-top: 16px;
   font-size: 14px;
@@ -480,6 +490,11 @@ main {
   text-align: justify;
 }
 
+.wisata_detail i {
+  font-size: 14px;
+  color: #F1C40F;
+}
+
 .wisata_desc {
   border-bottom: 3px solid #95A5A6;
 }
@@ -575,6 +590,71 @@ form button:hover {
   margin-top: -35px;
 }
 
+/* Pop-up Styles */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  border-radius: 10px;
+  animation: slideDown 0.5s ease;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+}
+
+#popupMessage {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
 /* Footer Styles */
 .container {
