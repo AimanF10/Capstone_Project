@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', async () => {
               </div>
               <div class="wisata_desc">
                 <div class="wisata_text">Deskripsi Wisata :</div>
-                <p>${wisata.deskripsi}</p>
                 <p>${wisata.deskripsifull}</p>
               </div>
             </div>
