@@ -294,14 +294,28 @@ main {
 
 /* CARDS */
 
-.wisata {
-  margin: 20px auto auto;
+.wisata,
+.popular-wisata {
+  margin: 32px auto auto;
   text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.popular-wisata {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.content .popular {
+  margin-top: 40px;
 }
 
 /* CARDS ITEM */
 
-.wisata-list {
+.wisata-item{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 100%;
   border-radius: 5px;
@@ -309,12 +323,12 @@ main {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.wisata-list:hover {
+.wisata-item:hover {
   transform: scale(1.02);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-.wisata-list img {
+.wisata-item img {
   object-fit: cover;
   height: 200px;
 }
@@ -779,7 +793,7 @@ form button:hover {
 }
 
 .social-links a:hover {
-  color: #007bff;
+  color: #fff;
 }
 
 
@@ -804,7 +818,7 @@ form button:hover {
 .left-info p {
   font-size: 15px;
   text-align: left;
-  color:#ffffff;
+  color:#194946;
 }
 
 
