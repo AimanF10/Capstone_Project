@@ -18,7 +18,7 @@ class wisataList extends HTMLElement {
       const wisataItem = document.createElement('div');
       wisataItem.className = 'wisata-item';
       wisataItem.innerHTML = `
-        <img class="wisata-list-image" src="${wisata.image}" alt="${wisata.nama}">
+        <img class="wisata-list-image lazyload" data-src="${wisata.image}" alt="${wisata.nama}">
         <div class="wisata-list-content">
           <p class="wisata_rating">Rating: <i class="fas fa-star"></i><span>${wisata.rating}</span></p>
           <h1 class="wisata-list-title"><a href="./detail.html?id=${wisata.id}">${wisata.nama}</a></h1>

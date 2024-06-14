@@ -18,8 +18,8 @@ class footerBar extends HTMLElement {
               <h3>Ferdiansyah Haryadi</h3>
               <p>UI/UX Design dan Front End</p>
               <div class="social-links">
-                <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Frdyan" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ferdianharyadi200215/" target="_blank"><i class="fab fa-linkedin"></i></a>
               </div>
             </div>
             <div class="team-member">
