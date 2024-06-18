@@ -2,7 +2,7 @@ class wisataList extends HTMLElement {
   async connectedCallback() {
     this.render();
     try {
-      const response = await fetch('http://localhost:3000/api/wisata');
+      const response = await fetch('https://back-end-capstone-eta.vercel.app/api/wisata');
       const wisataData = await response.json();
       this.fetchAndRenderData(wisataData);
     } catch (error) {

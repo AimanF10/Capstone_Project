@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     formData.append('review', JSON.stringify(reviewData));
 
     try {
-      const response = await fetch('http://localhost:3000/api/wisata', {
+      const response = await fetch('https://back-end-capstone-eta.vercel.app/api/wisata', {
         method: 'POST',
         body: formData,
       });
