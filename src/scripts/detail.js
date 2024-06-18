@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const id = params.get('id');
 
   try {
-    const response = await fetch(`http://localhost:3000/api/wisata/${id}`);
+    const response = await fetch(`https://back-end-capstone-eta.vercel.app/api/wisata/${id}`);
     const wisata = await response.json();
     const detailContainer = document.getElementById('wisata-detail');
 
